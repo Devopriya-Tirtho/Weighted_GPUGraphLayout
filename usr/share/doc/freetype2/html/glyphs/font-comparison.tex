@@ -1,0 +1,34 @@
+% font-comparison.tex
+%
+% written 2022 by Werner Lemberg <wl@gnu.org>
+
+
+% This file contains a graphic used for the 'FreeType Glyph Conventions'
+% tutorial, part 2, 'Glyph Outlines'.
+
+
+% Here is one possibility to convert this LaTeX file to both PNG and SVG
+% formats.
+%
+%   xelatex font-comparison.tex
+%
+%   pdftoppm -singlefile -png -r 120 font-comparison.pdf font-comparison
+%   optipng font-comparison.png
+%
+%   pdf2svg font-comparison.pdf font-comparison.svg
+
+\documentclass[border=3mm]{standalone}
+
+\usepackage{fontspec}
+
+
+\begin{document}
+
+\setmainfont{Times New Roman}
+``example (Times New Roman)'',
+\setmainfont{Arial}
+``example (Arial)'',
+\setmainfont{Courier}
+``example (Courier)''
+
+\end{document}

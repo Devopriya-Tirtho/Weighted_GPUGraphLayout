@@ -1,0 +1,44 @@
+gcc-tools-epoch2-automake
+========================================================================
+Provides a version of automake suitable for use by gcc developers. Gcc
+requires an unpatched version of automake.  This package provides that
+software, installed into the /opt/gcc-tools/epoch2 prefix.
+
+epoch2 autotools are: autoconf-2.64 + automake-1.11.latest, and are
+                      used for gcc-4.5, 4.6, 4.7, and 4.8.
+
+Build requirements (these or newer):
+  cygwin-1.7.22-1
+  perl
+  coreutils
+  m4
+  cygport-0.12.3-1
+  gcc-tools-epoch2-autoconf
+
+Canonical homepage:
+  http://sources.redhat.com/automake/
+
+Canonical download:
+  ftp://ftp.gnu.org/pub/gnu/automake/
+
+License:
+  GPL
+
+Language:
+  perl, m4
+
+========================================================================
+
+Port Notes:
+----- version 1.11.6-1 -- 2013 Jul 30 -----
+* Update to 1.11.6 upstream release
+* Rely on cygport to autogenerate setup.hint files
+* Provide cygwin64 version
+
+----- version 1.11.1-1 -- 2009 Dec 24 -----
+* New package, providing version of automake required by gcc-4.5.x.
+* Install into /opt/gcc-tools/epoch2/
+* Includes alternatives support, into /opt/gcc-tools/bin
+
+========================================================================
+Cygwin port maintained by: Chuck Wilson <cygwin@cygwin.com>

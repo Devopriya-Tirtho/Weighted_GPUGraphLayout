@@ -1,0 +1,49 @@
+% kerning.tex
+%
+% written 2022 by Werner Lemberg <wl@gnu.org>
+
+
+% This file contains a graphic used for the 'FreeType Glyph Conventions'
+% tutorial, part 4, 'Kerning'.
+
+
+% Here is one possibility to convert this LaTeX file to both PNG and SVG
+% formats.
+%
+%   xelatex kerning.tex
+%
+%   pdftoppm -f 1 -l 4 -png -r 120 kerning.pdf kerning
+%   optipng kerning-*.png
+%
+%   for i in 1 2 3 4; do
+%     pdf2svg kerning.pdf kerning-$i.svg $i
+%   done
+
+\documentclass[multi={img},
+               border=3mm]{standalone}
+
+\usepackage{fontspec}
+\usepackage{libertinus}
+
+
+\begin{document}
+
+\begin{img}
+B\kern0pt R\kern0pt A\kern0pt V\kern0pt O
+\end{img}
+
+\begin{img}
+BRAVO
+\end{img}
+
+\begin{img}
+T\kern0pt .\kern2pt W\kern0pt .\kern2pt Lewis
+{\tiny becomes}
+T\kern-1pt .\kern2pt W\kern-2pt .\kern3pt Lewis
+\end{img}
+
+\begin{img}
+T\kern-1pt .\kern1pt W\kern-2pt .\kern1pt Lewis
+\end{img}
+
+\end{document}

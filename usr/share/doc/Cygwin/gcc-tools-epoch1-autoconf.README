@@ -1,0 +1,51 @@
+gcc-tools-epoch1-autoconf
+========================================================================
+Provides a version of autoconf suitable for use by gcc developers. Gcc
+requires an unpatched version of autoconf.  This package provides that
+that software, installed into the /opt/gcc-tools/epoch1 prefix.
+
+epoch1 autotools are: autoconf-2.59 + automake-1.9.6, and are
+                      used for gcc-3.x, gcc-4.3, and gcc-4.4.
+
+Build requirements:
+  cygwin-1.7.22-1
+  perl
+  coreutils
+  m4
+  cygport-0.12.3
+  make
+  texinfo
+  gawk
+
+Canonical homepage:
+  http://www.gnu.org/software/autoconf/
+
+Canonical download:
+  ftp://ftp.gnu.org/pub/gnu/autoconf/
+
+License:
+  GPL
+
+Language:
+  perl, m4
+
+========================================================================
+
+Port Notes:
+----- version 2.59-2 -- 2013 Jul 30 -----
+* Rely on cygport to autogenerate setup.hint files
+* Provide cygwin64 version
+
+----- version 2.59-1 -- 2009 Dec 24 -----
+* Renamed package to gcc-tools-epoch1-autoconf
+* Install into /opt/gcc-tools/epoch1/
+* Added alternatives support, into /opt/gcc-tools/bin
+
+----- version 2.59-10 -- 27 Oct 2008 -----
+* This version marks the beginning of cygwin-1.7 specific
+  ports. Releases 2.59-2 thru 2.59-9 are reserved for
+  cygwin-1.5.
+* Use stock cygport-0.9.2
+
+========================================================================
+Cygwin port maintained by: Chuck Wilson <cygwin@cygwin.com>

@@ -1,0 +1,8 @@
+1.10--  Added the --clearfrom option, so you can input a clear text
+        password from a file.
+
+1.07--  Inserted the omitted parsing for the --string option.  Cleaned up a
+        bit of documentation.  Thanks to netgod of debian.org for hounding
+        me until I fixed this. :)
+
+1.06--  Initial release.

@@ -1,0 +1,905 @@
+2023/03/26 17:46:38 Starting cygwin install, version 2.919
+2023/03/26 17:46:38 User has backup/restore rights
+2023/03/26 17:46:38 User has symlink creation right
+2023/03/26 17:46:38 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2023/03/26 17:46:38 Current Directory: C:\Users\Hp\Downloads
+2023/03/26 17:47:01 source: network install
+2023/03/26 17:47:06 root: C:\cygwin64 system
+2023/03/26 17:47:07 Selected local directory: C:\Users\Hp\Downloads
+2023/03/26 17:47:19 net: Preconfig
+2023/03/26 17:47:33 site: https://cygwin.mirrors.hoobly.com/
+2023/03/26 17:47:40 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2023/03/26 17:47:40 mbox note: This setup is version 2.919, but setup.ini claims version 2.925 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2023/03/26 17:47:46 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2023/03/26 17:47:47 solving: 37 tasks, update: yes, use test packages: no
+2023/03/26 17:49:18 solving: 77 tasks, update: no, use test packages: no
+2023/03/26 17:49:18 Augmented Transaction List:
+2023/03/26 17:49:18    0 install cygwin          3.4.6-1                  
+2023/03/26 17:49:18    1 install libpopt-common  1.19-1                   
+2023/03/26 17:49:18    2 install make-src        4.4.1-1                  
+2023/03/26 17:49:18    3 install terminfo        6.4-3.20230114           
+2023/03/26 17:49:18    4 install tzdata          2023b-1                  
+2023/03/26 17:49:18    5 install libpkgconf4     1.9.4-1                  
+2023/03/26 17:49:18    6 install libcrypt2       4.4.20-1                 
+2023/03/26 17:49:18    7 install libffi8         3.4.3-1                  
+2023/03/26 17:49:18    8 install zlib0           1.2.13-1                 
+2023/03/26 17:49:18    9 install which           2.20-2                   
+2023/03/26 17:49:18   10 install run             1.3.4-2                  
+2023/03/26 17:49:18   11 install mintty          3.6.4-1                  
+2023/03/26 17:49:18   12 install login           1.13-1                   
+2023/03/26 17:49:18   13 install libzstd1        1.5.4-1                  
+2023/03/26 17:49:18   14 install libtasn1_6      4.14-1                   
+2023/03/26 17:49:18   15 install libsigsegv2     2.10-2                   
+2023/03/26 17:49:18   16 install libpipeline1    1.5.6-1                  
+2023/03/26 17:49:18   17 install libpcre2_8_0    10.42-1                  
+2023/03/26 17:49:18   18 install liblzma5        5.4.2-1                  
+2023/03/26 17:49:18   19 install liblz4_1        1.9.4-1                  
+2023/03/26 17:49:18   20 install libiconv2       1.17-1                   
+2023/03/26 17:49:18   21 install libgmp10        6.2.1-2                  
+2023/03/26 17:49:18   22 install libgcc1         11.3.0-1                 
+2023/03/26 17:49:18   23 install libffi6         3.2.1-2                  
+2023/03/26 17:49:18   24 install libbz2_1        1.0.8-1                  
+2023/03/26 17:49:18   25 install libargp         20110921-3               
+2023/03/26 17:49:18   26 install ipc-utils       1.1-1                    
+2023/03/26 17:49:18   27 install hostname        3.13-1                   
+2023/03/26 17:49:18   28 install editrights      1.04-1                   
+2023/03/26 17:49:18   29 install dash            0.5.12-2                 
+2023/03/26 17:49:18   30 install libncursesw10   6.4-3.20230114           
+2023/03/26 17:49:18   31 install pkgconf         1.9.4-1                  
+2023/03/26 17:49:18   32 install libpng16        1.6.39-1                 
+2023/03/26 17:49:18   33 install libunistring5   1.1-1                    
+2023/03/26 17:49:18   34 install libintl8        0.21.1-2                 
+2023/03/26 17:49:18   35 install libgc1          8.2.2-1                  
+2023/03/26 17:49:18   36 install libstdc++6      11.3.0-1                 
+2023/03/26 17:49:18   37 install libmpfr6        4.2.0-1                  
+2023/03/26 17:49:18   38 install file            5.44-1                   
+2023/03/26 17:49:18   39 install getent          2.18.90-5                
+2023/03/26 17:49:18   40 install rebase          4.6.2-2                  
+2023/03/26 17:49:18   41 install _autorebase     001091-1                 
+2023/03/26 17:49:18   42 install vim-minimal     8.2.4372-1               
+2023/03/26 17:49:18   43 install ncurses         6.4-3.20230114           
+2023/03/26 17:49:18   44 install libreadline7    8.2-2                    
+2023/03/26 17:49:18   45 install less            590-1                    
+2023/03/26 17:49:18   46 install pkg-config      1.9.4-1                  
+2023/03/26 17:49:18   47 install sed             4.9-1                    
+2023/03/26 17:49:18   48 install libuuid1        2.33.1-2                 
+2023/03/26 17:49:18   49 install libsmartcols1   2.33.1-2                 
+2023/03/26 17:49:18   50 install libpopt0        1.19-1                   
+2023/03/26 17:49:18   51 install libp11-kit0     0.23.20-1                
+2023/03/26 17:49:18   52 install libgdbm6        1.18.1-1                 
+2023/03/26 17:49:18   53 install libattr1        2.5.1-1.20.g0981a7bfe487 
+2023/03/26 17:49:18   54 install info            7.0.2-1                  
+2023/03/26 17:49:18   55 install diffutils       3.9-1                    
+2023/03/26 17:49:18   56 install alternatives    1.3.30c-10               
+2023/03/26 17:49:18   57 install libguile3.0_1   3.0.9-1                  
+2023/03/26 17:49:18   58 install zlib-devel      1.2.13-1                 
+2023/03/26 17:49:18   59 install libblkid1       2.33.1-2                 
+2023/03/26 17:49:18   60 install cygutils        1.4.17-1                 
+2023/03/26 17:49:18   61 install p11-kit-trust   0.23.20-1                
+2023/03/26 17:49:18   62 install p11-kit         0.23.20-1                
+2023/03/26 17:49:18   63 install bash            4.4.12-3                 
+2023/03/26 17:49:18   64 install make            4.4.1-1                  
+2023/03/26 17:49:18   65 install libfdisk1       2.33.1-2                 
+2023/03/26 17:49:18   66 install tzcode          2023b-1                  
+2023/03/26 17:49:18   67 install util-linux      2.33.1-2                 
+2023/03/26 17:49:18   68 install coreutils       9.0-1                    
+2023/03/26 17:49:18   69 install zstd            1.5.4-1                  
+2023/03/26 17:49:18   70 install xz              5.4.2-1                  
+2023/03/26 17:49:18   71 install libpng16-devel  1.6.39-1                 
+2023/03/26 17:49:18   72 install gzip            1.12-1                   
+2023/03/26 17:49:18   73 install groff           1.22.4-1                 
+2023/03/26 17:49:18   74 install grep            3.10-1                   
+2023/03/26 17:49:18   75 install gawk            5.2.1-2                  
+2023/03/26 17:49:18   76 install findutils       4.9.0-1                  
+2023/03/26 17:49:18   77 install crypto-policies 20190218-1               
+2023/03/26 17:49:18   78 install ca-certificates 2023.2.60-1              
+2023/03/26 17:49:18   79 install bzip2           1.0.8-1                  
+2023/03/26 17:49:18   80 install base-cygwin     3.8-2                    
+2023/03/26 17:49:18   81 install man-db          2.11.2-1                 
+2023/03/26 17:49:18   82 install base-files      4.3-3                    
+2023/03/26 17:49:18   83 install libssl1.1       1.1.1t-1                 
+2023/03/26 17:49:18   84 install tar             1.34-1                   
+2023/03/26 17:49:18   85 install openssl         1.1.1t-1                 
+2023/03/26 17:49:21 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/cygwin/cygwin-3.4.6-1.tar.xz
+2023/03/26 17:49:22 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz
+2023/03/26 17:49:26 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-4.4.1-1-src.tar.xz
+2023/03/26 17:49:26 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/terminfo/terminfo-6.4-3.20230114.tar.xz
+2023/03/26 17:49:28 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/tzdata/tzdata-2023b-1.tar.xz
+2023/03/26 17:49:28 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pkgconf/libpkgconf4/libpkgconf4-1.9.4-1.tar.zst
+2023/03/26 17:49:28 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz
+2023/03/26 17:49:29 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libffi/libffi8/libffi8-3.4.3-1.tar.xz
+2023/03/26 17:49:29 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zlib/zlib0/zlib0-1.2.13-1.tar.zst
+2023/03/26 17:49:29 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2023/03/26 17:49:29 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2023/03/26 17:49:29 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/mintty/mintty-3.6.4-1.tar.xz
+2023/03/26 17:49:30 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/login/login-1.13-1.tar.xz
+2023/03/26 17:49:30 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.4-1.tar.zst
+2023/03/26 17:49:30 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2023/03/26 17:49:30 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2023/03/26 17:49:30 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz
+2023/03/26 17:49:31 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.42-1.tar.zst
+2023/03/26 17:49:31 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/xz/liblzma5/liblzma5-5.4.2-1.tar.zst
+2023/03/26 17:49:31 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+2023/03/26 17:49:31 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+2023/03/26 17:49:31 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.1-2.tar.zst
+2023/03/26 17:49:32 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gcc/libgcc1/libgcc1-11.3.0-1.tar.zst
+2023/03/26 17:49:32 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2023/03/26 17:49:32 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2023/03/26 17:49:32 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2023/03/26 17:49:32 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz
+2023/03/26 17:49:32 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2023/03/26 17:49:33 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz
+2023/03/26 17:49:33 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/dash/dash-0.5.12-2.tar.xz
+2023/03/26 17:49:33 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.4-3.20230114.tar.xz
+2023/03/26 17:49:33 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pkgconf/pkgconf-1.9.4-1.tar.zst
+2023/03/26 17:49:33 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng/libpng16/libpng16-1.6.39-1.tar.xz
+2023/03/26 17:49:34 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libunistring/libunistring5/libunistring5-1.1-1.tar.xz
+2023/03/26 17:49:34 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gettext/libintl8/libintl8-0.21.1-2.tar.xz
+2023/03/26 17:49:34 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libgc/libgc1/libgc1-8.2.2-1.tar.xz
+2023/03/26 17:49:34 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gcc/libstdc++6/libstdc++6-11.3.0-1.tar.zst
+2023/03/26 17:49:35 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.0-1.tar.zst
+2023/03/26 17:49:35 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/file/file-5.44-1.tar.xz
+2023/03/26 17:49:35 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz
+2023/03/26 17:49:36 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/rebase/rebase-4.6.2-2.tar.xz
+2023/03/26 17:49:36 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2023/03/26 17:49:36 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.4372-1.tar.xz
+2023/03/26 17:49:37 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/ncurses-6.4-3.20230114.tar.xz
+2023/03/26 17:49:37 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+2023/03/26 17:49:37 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/less/less-590-1.tar.xz
+2023/03/26 17:49:37 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pkgconf/pkg-config/pkg-config-1.9.4-1.tar.zst
+2023/03/26 17:49:37 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/sed/sed-4.9-1.tar.xz
+2023/03/26 17:49:38 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz
+2023/03/26 17:49:38 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz
+2023/03/26 17:49:38 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz
+2023/03/26 17:49:38 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2023/03/26 17:49:38 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2023/03/26 17:49:39 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz
+2023/03/26 17:49:39 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/texinfo/info/info-7.0.2-1.tar.xz
+2023/03/26 17:49:40 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/diffutils/diffutils-3.9-1.tar.xz
+2023/03/26 17:49:40 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2023/03/26 17:49:41 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/guile3.0/libguile3.0_1/libguile3.0_1-3.0.9-1.tar.xz
+2023/03/26 17:49:41 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zlib/zlib-devel/zlib-devel-1.2.13-1.tar.zst
+2023/03/26 17:49:42 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz
+2023/03/26 17:49:42 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+2023/03/26 17:49:42 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2023/03/26 17:49:42 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2023/03/26 17:49:42 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2023/03/26 17:49:43 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-4.4.1-1.tar.xz
+2023/03/26 17:49:43 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz
+2023/03/26 17:49:43 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/tzcode/tzcode-2023b-1.tar.xz
+2023/03/26 17:49:44 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz
+2023/03/26 17:49:45 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2023/03/26 17:49:45 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zstd/zstd-1.5.4-1.tar.zst
+2023/03/26 17:49:45 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/xz/xz-5.4.2-1.tar.zst
+2023/03/26 17:49:45 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng/libpng16-devel/libpng16-devel-1.6.39-1.tar.xz
+2023/03/26 17:49:45 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gzip/gzip-1.12-1.tar.xz
+2023/03/26 17:49:46 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2023/03/26 17:49:47 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/grep/grep-3.10-1.tar.xz
+2023/03/26 17:49:47 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gawk/gawk-5.2.1-2.tar.xz
+2023/03/26 17:49:47 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/findutils/findutils-4.9.0-1.tar.xz
+2023/03/26 17:49:47 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2023/03/26 17:49:48 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/ca-certificates/ca-certificates-2023.2.60-1.tar.zst
+2023/03/26 17:49:48 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2023/03/26 17:49:50 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz
+2023/03/26 17:49:51 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/man-db/man-db-2.11.2-1.tar.zst
+2023/03/26 17:49:51 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2023/03/26 17:49:52 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1t-1.tar.zst
+2023/03/26 17:49:52 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/tar/tar-1.34-1.tar.zst
+2023/03/26 17:49:53 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/openssl/openssl-1.1.1t-1.tar.zst
+2023/03/26 17:49:53 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/cygwin/cygwin-3.4.6-1.tar.xz
+2023/03/26 17:49:54 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz
+2023/03/26 17:49:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/terminfo/terminfo-6.4-3.20230114.tar.xz
+2023/03/26 17:49:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/tzdata/tzdata-2023b-1.tar.xz
+2023/03/26 17:50:11 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pkgconf/libpkgconf4/libpkgconf4-1.9.4-1.tar.zst
+2023/03/26 17:50:11 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz
+2023/03/26 17:50:11 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libffi/libffi8/libffi8-3.4.3-1.tar.xz
+2023/03/26 17:50:11 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zlib/zlib0/zlib0-1.2.13-1.tar.zst
+2023/03/26 17:50:11 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2023/03/26 17:50:11 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2023/03/26 17:50:11 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/mintty/mintty-3.6.4-1.tar.xz
+2023/03/26 17:50:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/login/login-1.13-1.tar.xz
+2023/03/26 17:50:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.4-1.tar.zst
+2023/03/26 17:50:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2023/03/26 17:50:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2023/03/26 17:50:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz
+2023/03/26 17:50:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.42-1.tar.zst
+2023/03/26 17:50:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/xz/liblzma5/liblzma5-5.4.2-1.tar.zst
+2023/03/26 17:50:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+2023/03/26 17:50:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.1-2.tar.zst
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gcc/libgcc1/libgcc1-11.3.0-1.tar.zst
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/dash/dash-0.5.12-2.tar.xz
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.4-3.20230114.tar.xz
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pkgconf/pkgconf-1.9.4-1.tar.zst
+2023/03/26 17:50:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng/libpng16/libpng16-1.6.39-1.tar.xz
+2023/03/26 17:50:14 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libunistring/libunistring5/libunistring5-1.1-1.tar.xz
+2023/03/26 17:50:14 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gettext/libintl8/libintl8-0.21.1-2.tar.xz
+2023/03/26 17:50:14 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libgc/libgc1/libgc1-8.2.2-1.tar.xz
+2023/03/26 17:50:14 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gcc/libstdc++6/libstdc++6-11.3.0-1.tar.zst
+2023/03/26 17:50:14 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.0-1.tar.zst
+2023/03/26 17:50:14 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/file/file-5.44-1.tar.xz
+2023/03/26 17:50:14 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz
+2023/03/26 17:50:14 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/rebase/rebase-4.6.2-2.tar.xz
+2023/03/26 17:50:14 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2023/03/26 17:50:15 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.4372-1.tar.xz
+2023/03/26 17:50:15 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/ncurses/ncurses-6.4-3.20230114.tar.xz
+2023/03/26 17:50:16 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+2023/03/26 17:50:16 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/less/less-590-1.tar.xz
+2023/03/26 17:50:16 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/pkgconf/pkg-config/pkg-config-1.9.4-1.tar.zst
+2023/03/26 17:50:16 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/sed/sed-4.9-1.tar.xz
+2023/03/26 17:50:17 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz
+2023/03/26 17:50:17 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz
+2023/03/26 17:50:17 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz
+2023/03/26 17:50:17 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2023/03/26 17:50:17 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2023/03/26 17:50:17 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz
+2023/03/26 17:50:17 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/texinfo/info/info-7.0.2-1.tar.xz
+2023/03/26 17:50:18 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/diffutils/diffutils-3.9-1.tar.xz
+2023/03/26 17:50:18 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2023/03/26 17:50:19 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/guile3.0/libguile3.0_1/libguile3.0_1-3.0.9-1.tar.xz
+2023/03/26 17:50:28 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zlib/zlib-devel/zlib-devel-1.2.13-1.tar.zst
+2023/03/26 17:50:28 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz
+2023/03/26 17:50:28 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+2023/03/26 17:50:28 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2023/03/26 17:50:29 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2023/03/26 17:50:29 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2023/03/26 17:50:31 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-4.4.1-1.tar.xz
+2023/03/26 17:50:32 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz
+2023/03/26 17:50:32 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/tzcode/tzcode-2023b-1.tar.xz
+2023/03/26 17:50:33 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz
+2023/03/26 17:50:35 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2023/03/26 17:50:40 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/zstd/zstd-1.5.4-1.tar.zst
+2023/03/26 17:50:40 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/xz/xz-5.4.2-1.tar.zst
+2023/03/26 17:50:43 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng/libpng16-devel/libpng16-devel-1.6.39-1.tar.xz
+2023/03/26 17:50:43 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gzip/gzip-1.12-1.tar.xz
+2023/03/26 17:50:44 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2023/03/26 17:50:54 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/grep/grep-3.10-1.tar.xz
+2023/03/26 17:50:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gawk/gawk-5.2.1-2.tar.xz
+2023/03/26 17:50:56 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/findutils/findutils-4.9.0-1.tar.xz
+2023/03/26 17:50:58 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2023/03/26 17:50:58 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/ca-certificates/ca-certificates-2023.2.60-1.tar.zst
+2023/03/26 17:50:58 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2023/03/26 17:50:58 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz
+2023/03/26 17:50:58 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/man-db/man-db-2.11.2-1.tar.zst
+2023/03/26 17:51:01 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2023/03/26 17:51:01 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1t-1.tar.zst
+2023/03/26 17:51:02 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/tar/tar-1.34-1.tar.zst
+2023/03/26 17:51:02 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/openssl/openssl-1.1.1t-1.tar.zst
+2023/03/26 17:51:03 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-4.4.1-1-src.tar.xz
+2023/03/26 17:51:03 Changing gid back to original
+2023/03/26 17:51:03 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2023/03/26 17:51:13 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2023/03/26 17:51:19 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2023/03/26 17:51:19 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/bash.sh"
+2023/03/26 17:51:20 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2023/03/26 17:51:20 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2023/03/26 17:51:21 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2023/03/26 17:51:24 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/p11-kit.sh"
+2023/03/26 17:51:25 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2023/03/26 17:51:33 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/crypto-policies.sh"
+2023/03/26 17:51:38 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl.sh"
+2023/03/26 17:51:39 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2023/03/26 17:51:39 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2023/03/26 17:51:39 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2023/03/26 17:51:39 Changing gid to Administrators
+2023/03/26 17:51:51 note: Installation Complete
+2023/03/26 17:51:51 Ending cygwin install
+2023/03/26 18:08:52 Starting cygwin install, version 2.925
+2023/03/26 18:08:52 User has backup/restore rights
+2023/03/26 18:08:52 User has symlink creation right
+2023/03/26 18:08:52 Current Directory: C:\Users\Hp\Downloads
+2023/03/26 18:08:59 source: network install
+2023/03/26 18:09:04 root: C:\cygwin64 system
+2023/03/26 18:09:04 Changing gid to Administrators
+2023/03/26 18:09:06 Selected local directory: C:\Users\Hp\Downloads
+2023/03/26 18:09:07 net: Preconfig
+2023/03/26 18:09:11 site: https://cygwin.mirrors.hoobly.com/
+2023/03/26 18:09:16 solving: 0 tasks, update: yes, use test packages: no
+2023/03/26 18:11:38 solving: 11 tasks, update: no, use test packages: no
+2023/03/26 18:11:38 Augmented Transaction List:
+2023/03/26 18:11:38    0 install bash                 5.2.15-3                    
+2023/03/26 18:11:38    1   erase bash                 4.4.12-3                    
+2023/03/26 18:11:38    2 install libpng-devel         1.6.39-1                    
+2023/03/26 18:11:38    3 install libpng-tools         1.6.39-1                    
+2023/03/26 18:11:38    4 install libpng12             1.2.59-1                    
+2023/03/26 18:11:38    5 install makedepend           1.0.8-1                     
+2023/03/26 18:11:38    6 install makeself             2.4.5+20220611+gita4f40a2-1 
+2023/03/26 18:11:38    7 install perl_base            5.32.1-2                    
+2023/03/26 18:11:38    8 install perl_autorebase      5.32.1-2                    
+2023/03/26 18:11:38    9 install cygwin-debuginfo     3.4.6-1                     
+2023/03/26 18:11:38   10 install libdb5.3             5.3.28-2                    
+2023/03/26 18:11:38   11 install libgdbm_compat4      1.18.1-1                    
+2023/03/26 18:11:38   12 install libpng12-devel       1.2.59-1                    
+2023/03/26 18:11:38   13 install makedepend-debuginfo 1.0.8-1                     
+2023/03/26 18:11:38   14 install make-debuginfo       4.4.1-1                     
+2023/03/26 18:11:38   15 install libpng12-debuginfo   1.2.59-1                    
+2023/03/26 18:11:38   16 install perl                 5.32.1-2                    
+2023/03/26 18:11:38   17 install makepasswd           1.10-2                      
+2023/03/26 18:11:41 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bash/bash-5.2.15-3.tar.xz
+2023/03/26 18:11:42 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng/libpng-devel/libpng-devel-1.6.39-1.tar.xz
+2023/03/26 18:11:42 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng/libpng-tools/libpng-tools-1.6.39-1.tar.xz
+2023/03/26 18:11:43 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng12/libpng12-1.2.59-1.tar.xz
+2023/03/26 18:11:43 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/makedepend/makedepend-1.0.8-1.tar.xz
+2023/03/26 18:11:43 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/makeself/makeself-2.4.5+20220611+gita4f40a2-1.tar.xz
+2023/03/26 18:11:44 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/perl/perl_base/perl_base-5.32.1-2.tar.zst
+2023/03/26 18:11:44 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/perl/perl_autorebase/perl_autorebase-5.32.1-2.tar.zst
+2023/03/26 18:11:45 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/cygwin/cygwin-debuginfo/cygwin-debuginfo-3.4.6-1.tar.xz
+2023/03/26 18:11:46 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/db/libdb5.3/libdb5.3-5.3.28-2.tar.xz
+2023/03/26 18:11:46 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz
+2023/03/26 18:11:46 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng12/libpng12-devel/libpng12-devel-1.2.59-1.tar.xz
+2023/03/26 18:11:46 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/makedepend/makedepend-debuginfo/makedepend-debuginfo-1.0.8-1.tar.xz
+2023/03/26 18:11:47 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-debuginfo/make-debuginfo-4.4.1-1.tar.xz
+2023/03/26 18:11:47 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng12/libpng12-debuginfo/libpng12-debuginfo-1.2.59-1.tar.xz
+2023/03/26 18:11:48 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/perl/perl-5.32.1-2.tar.zst
+2023/03/26 18:11:48 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/makepasswd/makepasswd-1.10-2.tar.bz2
+2023/03/26 18:11:48 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2023/03/26 18:11:48 Uninstalling bash
+2023/03/26 18:11:48 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/bash/bash-5.2.15-3.tar.xz
+2023/03/26 18:11:48 io_stream_cygfile: fopen(/usr/bin/bash.exe) failed 13 Permission denied
+2023/03/26 18:11:48 Failed to open cygfile:///usr/bin/bash.exe for writing.
+2023/03/26 18:12:05 io_stream_cygfile: fopen(/usr/bin/bash.exe) failed 13 Permission denied
+2023/03/26 18:12:05 Failed to open cygfile:///usr/bin/bash.exe for writing.
+2023/03/26 18:12:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng/libpng-devel/libpng-devel-1.6.39-1.tar.xz
+2023/03/26 18:12:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng/libpng-tools/libpng-tools-1.6.39-1.tar.xz
+2023/03/26 18:12:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng12/libpng12-1.2.59-1.tar.xz
+2023/03/26 18:12:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/makedepend/makedepend-1.0.8-1.tar.xz
+2023/03/26 18:12:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/makeself/makeself-2.4.5+20220611+gita4f40a2-1.tar.xz
+2023/03/26 18:12:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/perl/perl_base/perl_base-5.32.1-2.tar.zst
+2023/03/26 18:12:16 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/perl/perl_autorebase/perl_autorebase-5.32.1-2.tar.zst
+2023/03/26 18:12:16 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/cygwin/cygwin-debuginfo/cygwin-debuginfo-3.4.6-1.tar.xz
+2023/03/26 18:12:27 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/db/libdb5.3/libdb5.3-5.3.28-2.tar.xz
+2023/03/26 18:12:27 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz
+2023/03/26 18:12:27 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng12/libpng12-devel/libpng12-devel-1.2.59-1.tar.xz
+2023/03/26 18:12:27 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/makedepend/makedepend-debuginfo/makedepend-debuginfo-1.0.8-1.tar.xz
+2023/03/26 18:12:27 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-debuginfo/make-debuginfo-4.4.1-1.tar.xz
+2023/03/26 18:12:27 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng12/libpng12-debuginfo/libpng12-debuginfo-1.2.59-1.tar.xz
+2023/03/26 18:12:28 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/perl/perl-5.32.1-2.tar.zst
+2023/03/26 18:12:39 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/makepasswd/makepasswd-1.10-2.tar.bz2
+2023/03/26 18:12:39 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2023/03/26 18:12:54 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2023/03/26 18:12:57 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/makeself.sh"
+2023/03/26 18:12:58 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2023/03/26 18:13:06 note: Installation Complete
+2023/03/26 18:13:06 Ending cygwin install
+2023/03/26 18:14:56 Starting cygwin install, version 2.925
+2023/03/26 18:14:56 User has backup/restore rights
+2023/03/26 18:14:56 User has symlink creation right
+2023/03/26 18:14:56 Current Directory: C:\Users\Hp\Downloads
+2023/03/26 18:15:01 source: network install
+2023/03/26 18:15:02 root: C:\cygwin64 system
+2023/03/26 18:15:02 Changing gid to Administrators
+2023/03/26 18:15:02 Selected local directory: C:\Users\Hp\Downloads
+2023/03/26 18:15:03 net: Preconfig
+2023/03/26 18:15:11 site: https://mirrors.163.com/cygwin/
+2023/03/26 18:15:24 mbox yesno: This setup.ini is older than the one you used last time you installed cygwin.  Proceed anyway?
+2023/03/26 18:15:33 solving: 0 tasks, update: yes, use test packages: no
+2023/03/26 18:16:27 solving: 5 tasks, update: no, use test packages: no
+2023/03/26 18:16:27 Augmented Transaction List:
+2023/03/26 18:16:27    0 install imake-debuginfo           1.0.9-1  
+2023/03/26 18:16:27    1 install binutils                  2.40-1   
+2023/03/26 18:16:27    2 install xorg-cf-files             1.0.7-1  
+2023/03/26 18:16:27    3 install m4                        1.4.19-1 
+2023/03/26 18:16:27    4 install perl-Class-Inspector      1.36-3   
+2023/03/26 18:16:27    5 install cygwin-devel              3.4.6-1  
+2023/03/26 18:16:27    6 install libatomic1                11.3.0-1 
+2023/03/26 18:16:27    7 install libgomp1                  11.3.0-1 
+2023/03/26 18:16:27    8 install libisl23                  0.25-1   
+2023/03/26 18:16:27    9 install libmpc3                   1.3.1-1  
+2023/03/26 18:16:27   10 install libquadmath0              11.3.0-1 
+2023/03/26 18:16:27   11 install w32api-headers            10.0.0-1 
+2023/03/26 18:16:27   12 install windows-default-manifest  6.4-2    
+2023/03/26 18:16:27   13 install gcc-tools-epoch2-autoconf 2.64-2   
+2023/03/26 18:16:27   14 install gcc-tools-epoch1-autoconf 2.59-2   
+2023/03/26 18:16:27   15 install perl-File-ShareDir        1.118-2  
+2023/03/26 18:16:27   16 install w32api-runtime            10.0.0-1 
+2023/03/26 18:16:27   17 install texinfo                   7.0.2-1  
+2023/03/26 18:16:27   18 install gcc-core                  11.3.0-1 
+2023/03/26 18:16:27   19 install gcc-tools-epoch2-automake 1.11.6-1 
+2023/03/26 18:16:27   20 install gcc-tools-epoch1-automake 1.9.6-2  
+2023/03/26 18:16:27   21 install imake                     1.0.9-1  
+2023/03/26 18:16:27   22 install gccmakedep                1.0.3-1  
+2023/03/26 18:16:33 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/imake/imake-debuginfo/imake-debuginfo-1.0.9-1.tar.xz
+2023/03/26 18:16:46 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/binutils/binutils-2.40-1.tar.zst
+2023/03/26 18:16:49 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/xorg-cf-files/xorg-cf-files-1.0.7-1.tar.xz
+2023/03/26 18:16:50 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/m4/m4-1.4.19-1.tar.xz
+2023/03/26 18:16:50 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/perl-Class-Inspector/perl-Class-Inspector-1.36-3.tar.zst
+2023/03/26 18:16:52 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.4.6-1.tar.xz
+2023/03/26 18:16:54 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-11.3.0-1.tar.zst
+2023/03/26 18:16:55 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-11.3.0-1.tar.zst
+2023/03/26 18:16:56 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/isl/libisl23/libisl23-0.25-1.tar.zst
+2023/03/26 18:16:57 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.3.1-1.tar.zst
+2023/03/26 18:16:57 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-11.3.0-1.tar.zst
+2023/03/26 18:17:00 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-10.0.0-1.tar.xz
+2023/03/26 18:17:00 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-2.tar.xz
+2023/03/26 18:17:01 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch2-autoconf/gcc-tools-epoch2-autoconf-2.64-2.tar.bz2
+2023/03/26 18:17:01 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch1-autoconf/gcc-tools-epoch1-autoconf-2.59-2.tar.bz2
+2023/03/26 18:17:01 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/perl-File-ShareDir/perl-File-ShareDir-1.118-2.tar.zst
+2023/03/26 18:17:06 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-10.0.0-1.tar.xz
+2023/03/26 18:17:07 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/texinfo-7.0.2-1.tar.xz
+2023/03/26 18:17:59 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-11.3.0-1.tar.zst
+2023/03/26 18:18:01 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch2-automake/gcc-tools-epoch2-automake-1.11.6-1.tar.bz2
+2023/03/26 18:18:01 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch1-automake/gcc-tools-epoch1-automake-1.9.6-2.tar.bz2
+2023/03/26 18:18:02 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/imake/imake-1.0.9-1.tar.xz
+2023/03/26 18:18:03 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/gccmakedep/gccmakedep-1.0.3-1.tar.xz
+2023/03/26 18:18:03 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2023/03/26 18:18:03 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/imake/imake-debuginfo/imake-debuginfo-1.0.9-1.tar.xz
+2023/03/26 18:18:03 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/binutils/binutils-2.40-1.tar.zst
+2023/03/26 18:18:05 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/xorg-cf-files/xorg-cf-files-1.0.7-1.tar.xz
+2023/03/26 18:18:05 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/m4/m4-1.4.19-1.tar.xz
+2023/03/26 18:18:06 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/perl-Class-Inspector/perl-Class-Inspector-1.36-3.tar.zst
+2023/03/26 18:18:06 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.4.6-1.tar.xz
+2023/03/26 18:18:08 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-11.3.0-1.tar.zst
+2023/03/26 18:18:08 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-11.3.0-1.tar.zst
+2023/03/26 18:18:08 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/isl/libisl23/libisl23-0.25-1.tar.zst
+2023/03/26 18:18:08 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.3.1-1.tar.zst
+2023/03/26 18:18:08 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-11.3.0-1.tar.zst
+2023/03/26 18:18:08 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-10.0.0-1.tar.xz
+2023/03/26 18:18:22 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-2.tar.xz
+2023/03/26 18:18:22 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch2-autoconf/gcc-tools-epoch2-autoconf-2.64-2.tar.bz2
+2023/03/26 18:18:23 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch1-autoconf/gcc-tools-epoch1-autoconf-2.59-2.tar.bz2
+2023/03/26 18:18:23 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/perl-File-ShareDir/perl-File-ShareDir-1.118-2.tar.zst
+2023/03/26 18:18:23 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-10.0.0-1.tar.xz
+2023/03/26 18:18:33 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/texinfo-7.0.2-1.tar.xz
+2023/03/26 18:18:36 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-11.3.0-1.tar.zst
+2023/03/26 18:18:40 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch2-automake/gcc-tools-epoch2-automake-1.11.6-1.tar.bz2
+2023/03/26 18:18:41 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch1-automake/gcc-tools-epoch1-automake-1.9.6-2.tar.bz2
+2023/03/26 18:18:43 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/imake/imake-1.0.9-1.tar.xz
+2023/03/26 18:18:43 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/gccmakedep/gccmakedep-1.0.3-1.tar.xz
+2023/03/26 18:18:43 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2023/03/26 18:18:50 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2023/03/26 18:18:56 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/gcc-tools-epoch1-autoconf.sh"
+2023/03/26 18:18:57 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/gcc-tools-epoch1-automake.sh"
+2023/03/26 18:18:57 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/gcc-tools-epoch2-autoconf.sh"
+2023/03/26 18:18:57 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/gcc-tools-epoch2-automake.sh"
+2023/03/26 18:18:58 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2023/03/26 18:19:22 note: Installation Complete
+2023/03/26 18:19:22 Ending cygwin install
+2023/03/26 18:24:57 Starting cygwin install, version 2.925
+2023/03/26 18:24:57 User has backup/restore rights
+2023/03/26 18:24:57 User has symlink creation right
+2023/03/26 18:24:57 Current Directory: C:\Users\Hp\Downloads
+2023/03/26 18:25:01 source: network install
+2023/03/26 18:25:06 root: C:\cygwin64 system
+2023/03/26 18:25:06 Changing gid to Administrators
+2023/03/26 18:25:13 Selected local directory: C:\Users\Hp\Downloads
+2023/03/26 18:25:18 net: Preconfig
+2023/03/26 18:25:22 site: https://mirrors.163.com/cygwin/
+2023/03/26 18:25:33 solving: 0 tasks, update: yes, use test packages: no
+2023/03/26 18:27:03 solving: 3 tasks, update: no, use test packages: no
+2023/03/26 18:27:03 Augmented Transaction List:
+2023/03/26 18:27:03    0 install gcc-g++                                 11.3.0-1   
+2023/03/26 18:27:03    1 install libjsoncpp25                            1.9.5-1    
+2023/03/26 18:27:03    2 install mingw64-x86_64-windows-default-manifest 6.4-1      
+2023/03/26 18:27:03    3 install mingw64-x86_64-binutils                 2.40-1     
+2023/03/26 18:27:03    4 install mingw64-x86_64-winpthreads              10.0.0-1   
+2023/03/26 18:27:03    5 install libexpat1                               2.5.0-1    
+2023/03/26 18:27:03    6 install librhash0                               1.4.1-1    
+2023/03/26 18:27:03    7 install libuv1                                  1.44.2-1   
+2023/03/26 18:27:03    8 install libntlm0                                1.4-1      
+2023/03/26 18:27:03    9 install libidn2_0                               2.3.4-1    
+2023/03/26 18:27:03   10 install libnghttp2_14                           1.52.0-1   
+2023/03/26 18:27:03   11 install libssh2_1                               1.10.0-1   
+2023/03/26 18:27:03   12 install libbrotlicommon1                        1.0.9-2    
+2023/03/26 18:27:03   13 install liblzo2_2                               2.10-2     
+2023/03/26 18:27:03   14 install libxml2                                 2.9.12-2   
+2023/03/26 18:27:03   15 install publicsuffix-list-dafsa                 20221208-1 
+2023/03/26 18:27:03   16 install libcom_err2                             1.44.5-1   
+2023/03/26 18:27:03   17 install libkrb5support0                         1.15.2-2   
+2023/03/26 18:27:03   18 install libgsasl-common                         2.2.0-2    
+2023/03/26 18:27:03   19 install libidn12                                1.41-1     
+2023/03/26 18:27:03   20 install libgpg-error0                           1.37-1     
+2023/03/26 18:27:03   21 install mingw64-x86_64-headers                  10.0.0-1   
+2023/03/26 18:27:03   22 install libbrotlidec1                           1.0.9-2    
+2023/03/26 18:27:03   23 install libarchive13                            3.6.2-1    
+2023/03/26 18:27:03   24 install libpsl5                                 0.21.2-1   
+2023/03/26 18:27:03   25 install libk5crypto3                            1.15.2-2   
+2023/03/26 18:27:03   26 install libgcrypt20                             1.10.1-1   
+2023/03/26 18:27:03   27 install mingw64-x86_64-runtime                  10.0.0-1   
+2023/03/26 18:27:03   28 install libkrb5_3                               1.15.2-2   
+2023/03/26 18:27:03   29 install mingw64-x86_64-gcc-core                 11.3.0-1   
+2023/03/26 18:27:03   30 install libgssapi_krb5_2                        1.15.2-2   
+2023/03/26 18:27:03   31 install mingw64-x86_64-gcc-g++                  11.3.0-1   
+2023/03/26 18:27:03   32 install libsasl2_3                              2.1.27-1   
+2023/03/26 18:27:03   33 install libgsasl18                              2.2.0-2    
+2023/03/26 18:27:03   34 install libopenldap2                            2.6.4-1    
+2023/03/26 18:27:03   35 install libopenldap2_4_2                        2.6.4-1    
+2023/03/26 18:27:03   36 install libcurl4                                8.0.1-1    
+2023/03/26 18:27:03   37 install cmake                                   3.23.2-1   
+2023/03/26 18:27:14 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-11.3.0-1.tar.zst
+2023/03/26 18:27:14 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/jsoncpp/libjsoncpp25/libjsoncpp25-1.9.5-1.tar.xz
+2023/03/26 18:27:24 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/mingw64-x86_64-windows-default-manifest/mingw64-x86_64-windows-default-manifest-6.4-1.tar.xz
+2023/03/26 18:27:36 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mingw64-x86_64-binutils/mingw64-x86_64-binutils-2.40-1.tar.zst
+2023/03/26 18:27:36 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/mingw64-x86_64-winpthreads/mingw64-x86_64-winpthreads-10.0.0-1.tar.xz
+2023/03/26 18:27:39 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/expat/libexpat1/libexpat1-2.5.0-1.tar.xz
+2023/03/26 18:27:43 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rhash/librhash0/librhash0-1.4.1-1.tar.xz
+2023/03/26 18:27:47 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libuv/libuv1/libuv1-1.44.2-1.tar.xz
+2023/03/26 18:27:47 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libntlm/libntlm0/libntlm0-1.4-1.tar.xz
+2023/03/26 18:27:48 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libidn2/libidn2_0/libidn2_0-2.3.4-1.tar.xz
+2023/03/26 18:27:52 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/nghttp2/libnghttp2_14/libnghttp2_14-1.52.0-1.tar.xz
+2023/03/26 18:27:53 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libssh2/libssh2_1/libssh2_1-1.10.0-1.tar.xz
+2023/03/26 18:27:56 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotlicommon1/libbrotlicommon1-1.0.9-2.tar.xz
+2023/03/26 18:27:57 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/liblzo2/liblzo2_2/liblzo2_2-2.10-2.tar.xz
+2023/03/26 18:28:07 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libxml2/libxml2-2.9.12-2.tar.xz
+2023/03/26 18:28:07 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20221208-1.tar.xz
+2023/03/26 18:28:13 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+2023/03/26 18:28:14 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2023/03/26 18:28:18 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gsasl/libgsasl-common/libgsasl-common-2.2.0-2.tar.xz
+2023/03/26 18:28:19 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libidn/libidn12/libidn12-1.41-1.tar.xz
+2023/03/26 18:28:23 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libgpg-error/libgpg-error0/libgpg-error0-1.37-1.tar.xz
+2023/03/26 18:28:29 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/mingw64-x86_64-headers/mingw64-x86_64-headers-10.0.0-1.tar.xz
+2023/03/26 18:28:29 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotlidec1/libbrotlidec1-1.0.9-2.tar.xz
+2023/03/26 18:28:30 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libarchive/libarchive13/libarchive13-3.6.2-1.tar.zst
+2023/03/26 18:28:33 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpsl/libpsl5/libpsl5-0.21.2-1.tar.xz
+2023/03/26 18:28:34 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2023/03/26 18:28:38 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libgcrypt/libgcrypt20/libgcrypt20-1.10.1-1.tar.xz
+2023/03/26 18:28:40 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/mingw64-x86_64-runtime/mingw64-x86_64-runtime-10.0.0-1.tar.xz
+2023/03/26 18:28:44 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2023/03/26 18:29:38 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-core/mingw64-x86_64-gcc-core-11.3.0-1.tar.zst
+2023/03/26 18:29:39 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2023/03/26 18:30:13 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-g++/mingw64-x86_64-gcc-g++-11.3.0-1.tar.zst
+2023/03/26 18:30:13 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.27-1.tar.xz
+2023/03/26 18:30:21 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gsasl/libgsasl18/libgsasl18-2.2.0-2.tar.xz
+2023/03/26 18:30:22 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.4-1.tar.zst
+2023/03/26 18:30:26 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.4-1.tar.zst
+2023/03/26 18:30:26 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.0.1-1.tar.xz
+2023/03/26 18:30:47 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cmake/cmake-3.23.2-1.tar.xz
+2023/03/26 18:30:47 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2023/03/26 18:30:47 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-11.3.0-1.tar.zst
+2023/03/26 18:30:54 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/jsoncpp/libjsoncpp25/libjsoncpp25-1.9.5-1.tar.xz
+2023/03/26 18:30:54 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/mingw64-x86_64-windows-default-manifest/mingw64-x86_64-windows-default-manifest-6.4-1.tar.xz
+2023/03/26 18:30:54 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mingw64-x86_64-binutils/mingw64-x86_64-binutils-2.40-1.tar.zst
+2023/03/26 18:30:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/mingw64-x86_64-winpthreads/mingw64-x86_64-winpthreads-10.0.0-1.tar.xz
+2023/03/26 18:30:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/expat/libexpat1/libexpat1-2.5.0-1.tar.xz
+2023/03/26 18:30:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rhash/librhash0/librhash0-1.4.1-1.tar.xz
+2023/03/26 18:30:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libuv/libuv1/libuv1-1.44.2-1.tar.xz
+2023/03/26 18:30:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libntlm/libntlm0/libntlm0-1.4-1.tar.xz
+2023/03/26 18:30:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libidn2/libidn2_0/libidn2_0-2.3.4-1.tar.xz
+2023/03/26 18:30:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/nghttp2/libnghttp2_14/libnghttp2_14-1.52.0-1.tar.xz
+2023/03/26 18:30:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libssh2/libssh2_1/libssh2_1-1.10.0-1.tar.xz
+2023/03/26 18:30:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotlicommon1/libbrotlicommon1-1.0.9-2.tar.xz
+2023/03/26 18:30:55 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/liblzo2/liblzo2_2/liblzo2_2-2.10-2.tar.xz
+2023/03/26 18:30:56 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libxml2/libxml2-2.9.12-2.tar.xz
+2023/03/26 18:30:56 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20221208-1.tar.xz
+2023/03/26 18:30:56 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+2023/03/26 18:30:56 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2023/03/26 18:30:56 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gsasl/libgsasl-common/libgsasl-common-2.2.0-2.tar.xz
+2023/03/26 18:30:56 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libidn/libidn12/libidn12-1.41-1.tar.xz
+2023/03/26 18:30:56 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libgpg-error/libgpg-error0/libgpg-error0-1.37-1.tar.xz
+2023/03/26 18:30:56 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/mingw64-x86_64-headers/mingw64-x86_64-headers-10.0.0-1.tar.xz
+2023/03/26 18:31:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotlidec1/libbrotlidec1-1.0.9-2.tar.xz
+2023/03/26 18:31:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libarchive/libarchive13/libarchive13-3.6.2-1.tar.zst
+2023/03/26 18:31:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpsl/libpsl5/libpsl5-0.21.2-1.tar.xz
+2023/03/26 18:31:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2023/03/26 18:31:14 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libgcrypt/libgcrypt20/libgcrypt20-1.10.1-1.tar.xz
+2023/03/26 18:31:14 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/mingw64-x86_64-runtime/mingw64-x86_64-runtime-10.0.0-1.tar.xz
+2023/03/26 18:31:24 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2023/03/26 18:31:24 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-core/mingw64-x86_64-gcc-core-11.3.0-1.tar.zst
+2023/03/26 18:31:26 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2023/03/26 18:31:26 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-g++/mingw64-x86_64-gcc-g++-11.3.0-1.tar.zst
+2023/03/26 18:31:35 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.27-1.tar.xz
+2023/03/26 18:31:35 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gsasl/libgsasl18/libgsasl18-2.2.0-2.tar.xz
+2023/03/26 18:31:35 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.4-1.tar.zst
+2023/03/26 18:31:35 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.4-1.tar.zst
+2023/03/26 18:31:35 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.0.1-1.tar.xz
+2023/03/26 18:31:35 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cmake/cmake-3.23.2-1.tar.xz
+2023/03/26 18:32:12 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2023/03/26 18:32:22 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2023/03/26 18:32:23 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/libsasl2_3.sh"
+2023/03/26 18:32:24 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/libxml2.sh"
+2023/03/26 18:32:24 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2023/03/26 18:32:45 note: Installation Complete
+2023/03/26 18:32:45 Ending cygwin install
+2023/03/27 11:35:53 Starting cygwin install, version 2.919
+2023/03/27 11:35:53 User has backup/restore rights
+2023/03/27 11:35:53 User has symlink creation right
+2023/03/27 11:35:53 Current Directory: C:\Users\Hp\Downloads
+2023/03/27 11:36:08 source: network install
+2023/03/27 11:36:14 root: C:\cygwin64 system
+2023/03/27 11:36:20 Selected local directory: C:\Users\Hp\Downloads
+2023/03/27 11:36:27 net: Direct
+2023/03/27 11:36:30 site: https://mirrors.163.com/cygwin/
+2023/03/27 11:36:36 mbox note: This setup is version 2.919, but setup.ini claims version 2.925 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2023/03/27 11:36:47 solving: 0 tasks, update: yes, use test packages: no
+2023/03/27 11:36:50 solving: 0 tasks, update: yes, use test packages: no
+2023/03/27 11:36:51 solving: 0 tasks, update: yes, use test packages: no
+2023/03/27 11:37:59 solving: 7 tasks, update: no, use test packages: no
+2023/03/27 11:37:59 Augmented Transaction List:
+2023/03/27 11:37:59    0   erase libpng-devel       1.6.39-1 
+2023/03/27 11:37:59    1   erase libpng-tools       1.6.39-1 
+2023/03/27 11:37:59    2   erase libpng12-debuginfo 1.2.59-1 
+2023/03/27 11:37:59    3   erase libpng12-devel     1.2.59-1 
+2023/03/27 11:37:59    4   erase libpng12           1.2.59-1 
+2023/03/27 11:37:59    5   erase libpng16           1.6.39-1 
+2023/03/27 11:37:59    6 install libpng16           1.6.39-1 
+2023/03/27 11:37:59    7   erase libpng16-devel     1.6.39-1 
+2023/03/27 11:37:59    8 install libpng16-devel     1.6.39-1 
+2023/03/27 11:38:02 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpng/libpng16/libpng16-1.6.39-1.tar.xz
+2023/03/27 11:38:15 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpng/libpng16-devel/libpng16-devel-1.6.39-1.tar.xz
+2023/03/27 11:38:15 Uninstalling libpng-devel
+2023/03/27 11:38:15 Uninstalling libpng-tools
+2023/03/27 11:38:15 Uninstalling libpng12-debuginfo
+2023/03/27 11:38:15 Uninstalling libpng12-devel
+2023/03/27 11:38:15 Uninstalling libpng12
+2023/03/27 11:38:15 Uninstalling libpng16
+2023/03/27 11:38:15 Uninstalling libpng16-devel
+2023/03/27 11:38:15 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpng/libpng16/libpng16-1.6.39-1.tar.xz
+2023/03/27 11:38:15 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpng/libpng16-devel/libpng16-devel-1.6.39-1.tar.xz
+2023/03/27 11:38:15 Changing gid back to original
+2023/03/27 11:38:15 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2023/03/27 11:38:20 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2023/03/27 11:38:21 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2023/03/27 11:38:21 Changing gid to Administrators
+2023/03/27 11:39:05 note: Installation Complete
+2023/03/27 11:39:05 Ending cygwin install
+2023/03/27 11:47:36 Starting cygwin install, version 2.919
+2023/03/27 11:47:36 User has backup/restore rights
+2023/03/27 11:47:36 User has symlink creation right
+2023/03/27 11:47:36 Current Directory: C:\Users\Hp\Downloads
+2023/03/27 11:47:38 source: network install
+2023/03/27 11:47:39 root: C:\cygwin64 system
+2023/03/27 11:47:40 Selected local directory: C:\Users\Hp\Downloads
+2023/03/27 11:47:42 net: Direct
+2023/03/27 11:47:56 site: https://cygwin.mirrors.hoobly.com/
+2023/03/27 11:47:56 site: http://mirror.team-cymru.com/cygwin/
+2023/03/27 11:48:00 mbox note: This setup is version 2.919, but setup.ini claims version 2.925 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2023/03/27 11:48:37 solving: 0 tasks, update: yes, use test packages: no
+2023/03/27 11:48:39 mbox : Are you sure you want to exit setup? Any current download or installation will be aborted.
+2023/03/27 11:48:40 Ending cygwin install
+2023/03/27 11:48:44 Starting cygwin install, version 2.925
+2023/03/27 11:48:44 User has backup/restore rights
+2023/03/27 11:48:44 User has symlink creation right
+2023/03/27 11:48:44 Current Directory: C:\Users\Hp\Downloads
+2023/03/27 11:48:46 source: network install
+2023/03/27 11:48:47 root: C:\cygwin64 system
+2023/03/27 11:48:47 Changing gid to Administrators
+2023/03/27 11:48:48 Selected local directory: C:\Users\Hp\Downloads
+2023/03/27 11:48:49 net: Direct
+2023/03/27 11:48:52 site: https://cygwin.mirrors.hoobly.com/
+2023/03/27 11:48:52 site: http://mirror.team-cymru.com/cygwin/
+2023/03/27 11:48:55 solving: 0 tasks, update: yes, use test packages: no
+2023/03/27 11:50:05 solving: 16 tasks, update: no, use test packages: no
+2023/03/27 11:50:05 Augmented Transaction List:
+2023/03/27 11:50:05    0   erase cmake                     3.23.2-1                    
+2023/03/27 11:50:05    1 install cmake                     3.23.2-1                    
+2023/03/27 11:50:05    2   erase gcc-g++                   11.3.0-1                    
+2023/03/27 11:50:05    3 install gcc-g++                   11.3.0-1                    
+2023/03/27 11:50:05    4   erase gcc-tools-epoch1-automake 1.9.6-2                     
+2023/03/27 11:50:05    5 install gcc-tools-epoch1-automake 1.9.6-2                     
+2023/03/27 11:50:05    6   erase gcc-tools-epoch2-automake 1.11.6-1                    
+2023/03/27 11:50:05    7 install gcc-tools-epoch2-automake 1.11.6-1                    
+2023/03/27 11:50:05    8   erase gccmakedep                1.0.3-1                     
+2023/03/27 11:50:05    9 install gccmakedep                1.0.3-1                     
+2023/03/27 11:50:05   10   erase imake                     1.0.9-1                     
+2023/03/27 11:50:05   11 install imake                     1.0.9-1                     
+2023/03/27 11:50:05   12   erase imake-debuginfo           1.0.9-1                     
+2023/03/27 11:50:05   13 install imake-debuginfo           1.0.9-1                     
+2023/03/27 11:50:05   14   erase libpng16                  1.6.39-1                    
+2023/03/27 11:50:05   15 install libpng16                  1.6.39-1                    
+2023/03/27 11:50:05   16   erase libpng16-devel            1.6.39-1                    
+2023/03/27 11:50:05   17 install libpng16-devel            1.6.39-1                    
+2023/03/27 11:50:05   18   erase make                      4.4.1-1                     
+2023/03/27 11:50:05   19 install make                      4.4.1-1                     
+2023/03/27 11:50:05   20   erase make-debuginfo            4.4.1-1                     
+2023/03/27 11:50:05   21 install make-debuginfo            4.4.1-1                     
+2023/03/27 11:50:05   22   erase makedepend                1.0.8-1                     
+2023/03/27 11:50:05   23 install makedepend                1.0.8-1                     
+2023/03/27 11:50:05   24   erase makedepend-debuginfo      1.0.8-1                     
+2023/03/27 11:50:05   25 install makedepend-debuginfo      1.0.8-1                     
+2023/03/27 11:50:05   26   erase makepasswd                1.10-2                      
+2023/03/27 11:50:05   27 install makepasswd                1.10-2                      
+2023/03/27 11:50:05   28   erase makeself                  2.4.5+20220611+gita4f40a2-1 
+2023/03/27 11:50:05   29 install makeself                  2.4.5+20220611+gita4f40a2-1 
+2023/03/27 11:50:05   30   erase mingw64-x86_64-gcc-g++    11.3.0-1                    
+2023/03/27 11:50:05   31 install mingw64-x86_64-gcc-g++    11.3.0-1                    
+2023/03/27 11:50:08 Downloaded C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/cmake/cmake-3.23.2-1.tar.xz
+2023/03/27 11:50:13 Downloaded C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-11.3.0-1.tar.zst
+2023/03/27 11:50:13 Downloaded C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch1-automake/gcc-tools-epoch1-automake-1.9.6-2.tar.bz2
+2023/03/27 11:50:13 Downloaded C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch2-automake/gcc-tools-epoch2-automake-1.11.6-1.tar.bz2
+2023/03/27 11:50:13 Downloaded C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/noarch/release/gccmakedep/gccmakedep-1.0.3-1.tar.xz
+2023/03/27 11:50:13 Downloaded C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/imake/imake-1.0.9-1.tar.xz
+2023/03/27 11:50:13 Downloaded C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/imake/imake-debuginfo/imake-debuginfo-1.0.9-1.tar.xz
+2023/03/27 11:50:21 Downloaded C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-g++/mingw64-x86_64-gcc-g++-11.3.0-1.tar.zst
+2023/03/27 11:50:21 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2023/03/27 11:50:21 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/preremove/gcc-tools-epoch1-automake.sh"
+2023/03/27 11:50:21 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/preremove/gcc-tools-epoch2-automake.sh"
+2023/03/27 11:50:21 Uninstalling cmake
+2023/03/27 11:50:22 Uninstalling gcc-g++
+2023/03/27 11:50:23 Uninstalling gcc-tools-epoch1-automake
+2023/03/27 11:50:23 Uninstalling gcc-tools-epoch2-automake
+2023/03/27 11:50:23 Uninstalling gccmakedep
+2023/03/27 11:50:23 Uninstalling imake
+2023/03/27 11:50:23 Uninstalling imake-debuginfo
+2023/03/27 11:50:23 Uninstalling libpng16
+2023/03/27 11:50:23 Uninstalling libpng16-devel
+2023/03/27 11:50:23 Uninstalling make
+2023/03/27 11:50:23 Uninstalling make-debuginfo
+2023/03/27 11:50:23 Uninstalling makedepend
+2023/03/27 11:50:23 Uninstalling makedepend-debuginfo
+2023/03/27 11:50:23 Uninstalling makepasswd
+2023/03/27 11:50:23 Uninstalling makeself
+2023/03/27 11:50:23 Uninstalling mingw64-x86_64-gcc-g++
+2023/03/27 11:50:23 Extracting from file://C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/cmake/cmake-3.23.2-1.tar.xz
+2023/03/27 11:50:32 Extracting from file://C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-11.3.0-1.tar.zst
+2023/03/27 11:50:36 Extracting from file://C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch1-automake/gcc-tools-epoch1-automake-1.9.6-2.tar.bz2
+2023/03/27 11:50:36 Extracting from file://C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gcc-tools-epoch2-automake/gcc-tools-epoch2-automake-1.11.6-1.tar.bz2
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/noarch/release/gccmakedep/gccmakedep-1.0.3-1.tar.xz
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/imake/imake-1.0.9-1.tar.xz
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/imake/imake-debuginfo/imake-debuginfo-1.0.9-1.tar.xz
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng/libpng16/libpng16-1.6.39-1.tar.xz
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/libpng/libpng16-devel/libpng16-devel-1.6.39-1.tar.xz
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-4.4.1-1.tar.xz
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/make/make-debuginfo/make-debuginfo-4.4.1-1.tar.xz
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/makedepend/makedepend-1.0.8-1.tar.xz
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/makedepend/makedepend-debuginfo/makedepend-debuginfo-1.0.8-1.tar.xz
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/x86_64/release/makepasswd/makepasswd-1.10-2.tar.bz2
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirrors.hoobly.com%2f/noarch/release/makeself/makeself-2.4.5+20220611+gita4f40a2-1.tar.xz
+2023/03/27 11:50:37 Extracting from file://C:\Users\Hp\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-g++/mingw64-x86_64-gcc-g++-11.3.0-1.tar.zst
+2023/03/27 11:50:40 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2023/03/27 11:50:42 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2023/03/27 11:50:47 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/gcc-tools-epoch1-automake.sh"
+2023/03/27 11:50:47 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/gcc-tools-epoch2-automake.sh"
+2023/03/27 11:50:47 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/makeself.sh"
+2023/03/27 11:50:47 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2023/03/27 11:51:53 note: Installation Complete
+2023/03/27 11:51:53 Ending cygwin install
+2023/03/27 12:13:33 Starting cygwin install, version 2.925
+2023/03/27 12:13:33 User has backup/restore rights
+2023/03/27 12:13:33 User has symlink creation right
+2023/03/27 12:13:33 Current Directory: C:\Users\Hp\Downloads
+2023/03/27 12:13:44 source: network install
+2023/03/27 12:13:48 root: C:\cygwin64 system
+2023/03/27 12:13:48 Changing gid to Administrators
+2023/03/27 12:13:49 Selected local directory: C:\Users\Hp\Downloads
+2023/03/27 12:13:52 net: Direct
+2023/03/27 12:13:58 site: https://cygwin.mirror.constant.com/
+2023/03/27 12:14:01 solving: 0 tasks, update: yes, use test packages: no
+2023/03/27 12:17:49 solving: 6 tasks, update: no, use test packages: no
+2023/03/27 12:17:49 Augmented Transaction List:
+2023/03/27 12:17:49    0 install cmake          3.25.3-1            
+2023/03/27 12:17:49    1   erase cmake          3.23.2-1            
+2023/03/27 12:17:49    2 install gcc-g++        11.3.1+20230310-0.1 
+2023/03/27 12:17:49    3   erase gcc-g++        11.3.0-1            
+2023/03/27 12:17:49    4 install make           4.4.1-2             
+2023/03/27 12:17:49    5   erase make           4.4.1-1             
+2023/03/27 12:17:49    6 install make-debuginfo 4.4.1-2             
+2023/03/27 12:17:49    7   erase make-debuginfo 4.4.1-1             
+2023/03/27 12:17:49    8 install libpng16       1.6.37-1            
+2023/03/27 12:17:49    9   erase libpng16       1.6.39-1            
+2023/03/27 12:17:49   10 install libpng16-devel 1.6.37-1            
+2023/03/27 12:17:49   11   erase libpng16-devel 1.6.39-1            
+2023/03/27 12:17:53 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cmake/cmake-3.25.3-1.tar.xz
+2023/03/27 12:17:58 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-g++/gcc-g++-11.3.1+20230310-0.1.tar.zst
+2023/03/27 12:17:58 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/make/make-4.4.1-2.tar.xz
+2023/03/27 12:17:58 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/make/make-debuginfo/make-debuginfo-4.4.1-2.tar.xz
+2023/03/27 12:17:58 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpng/libpng16/libpng16-1.6.37-1.tar.xz
+2023/03/27 12:17:58 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpng/libpng16-devel/libpng16-devel-1.6.37-1.tar.xz
+2023/03/27 12:17:58 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2023/03/27 12:17:58 Uninstalling cmake
+2023/03/27 12:17:59 Uninstalling gcc-g++
+2023/03/27 12:17:59 Uninstalling make
+2023/03/27 12:17:59 Uninstalling make-debuginfo
+2023/03/27 12:17:59 Uninstalling libpng16
+2023/03/27 12:17:59 Uninstalling libpng16-devel
+2023/03/27 12:17:59 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cmake/cmake-3.25.3-1.tar.xz
+2023/03/27 12:18:08 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-g++/gcc-g++-11.3.1+20230310-0.1.tar.zst
+2023/03/27 12:18:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/make/make-4.4.1-2.tar.xz
+2023/03/27 12:18:12 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/make/make-debuginfo/make-debuginfo-4.4.1-2.tar.xz
+2023/03/27 12:18:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpng/libpng16/libpng16-1.6.37-1.tar.xz
+2023/03/27 12:18:13 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpng/libpng16-devel/libpng16-devel-1.6.37-1.tar.xz
+2023/03/27 12:18:13 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2023/03/27 12:18:15 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2023/03/27 12:18:19 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2023/03/27 12:18:23 note: Installation Complete
+2023/03/27 12:18:23 Ending cygwin install
+2023/04/05 13:21:50 Starting cygwin install, version 2.925
+2023/04/05 13:21:50 User has backup/restore rights
+2023/04/05 13:21:50 User has symlink creation right
+2023/04/05 13:21:50 Current Directory: C:\Users\Hp\Downloads
+2023/04/05 13:21:54 source: network install
+2023/04/05 13:21:56 root: C:\cygwin64 system
+2023/04/05 13:21:56 Changing gid to Administrators
+2023/04/05 13:21:59 Selected local directory: C:\Users\Hp\Downloads
+2023/04/05 13:22:01 net: Preconfig
+2023/04/05 13:22:07 site: https://mirrors.163.com/cygwin/
+2023/04/05 13:22:16 solving: 0 tasks, update: yes, use test packages: no
+2023/04/05 13:23:41 solving: 9 tasks, update: no, use test packages: no
+2023/04/05 13:23:41 Augmented Transaction List:
+2023/04/05 13:23:41    0 install info              7.0.3-1  
+2023/04/05 13:23:41    1   erase info              7.0.2-1  
+2023/04/05 13:23:41    2 install libfreetype-doc   2.13.0-1 
+2023/04/05 13:23:41    3 install libpng16          1.6.34-1 
+2023/04/05 13:23:41    4   erase libpng16          1.6.37-1 
+2023/04/05 13:23:41    5 install tzdata            2023c-1  
+2023/04/05 13:23:41    6   erase tzdata            2023b-1  
+2023/04/05 13:23:41    7 install libbrotlienc1     1.0.9-2  
+2023/04/05 13:23:41    8 install texinfo           7.0.3-1  
+2023/04/05 13:23:41    9   erase texinfo           7.0.2-1  
+2023/04/05 13:23:41   10 install libpng16-devel    1.6.39-1 
+2023/04/05 13:23:41   11   erase libpng16-devel    1.6.37-1 
+2023/04/05 13:23:41   12 install libfreetype6      2.13.0-1 
+2023/04/05 13:23:41   13 install tzcode            2023c-1  
+2023/04/05 13:23:41   14   erase tzcode            2023b-1  
+2023/04/05 13:23:41   15 install libbrotli-devel   1.0.9-2  
+2023/04/05 13:23:41   16 install libpng-devel      1.6.39-1 
+2023/04/05 13:23:41   17 install libfreetype-devel 2.13.0-1 
+2023/04/05 13:23:45 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/info/info-7.0.3-1.tar.xz
+2023/04/05 13:23:51 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/freetype2/libfreetype-doc/libfreetype-doc-2.13.0-1.tar.xz
+2023/04/05 13:23:52 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpng/libpng16/libpng16-1.6.34-1.tar.xz
+2023/04/05 13:23:52 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2023c-1.tar.xz
+2023/04/05 13:23:53 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotlienc1/libbrotlienc1-1.0.9-2.tar.xz
+2023/04/05 13:23:53 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/texinfo-7.0.3-1.tar.xz
+2023/04/05 13:23:55 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/freetype2/libfreetype6/libfreetype6-2.13.0-1.tar.xz
+2023/04/05 13:23:55 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2023c-1.tar.xz
+2023/04/05 13:23:55 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotli-devel/libbrotli-devel-1.0.9-2.tar.xz
+2023/04/05 13:23:57 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpng/libpng-devel/libpng-devel-1.6.39-1.tar.xz
+2023/04/05 13:23:57 Downloaded C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/freetype2/libfreetype-devel/libfreetype-devel-2.13.0-1.tar.xz
+2023/04/05 13:23:57 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2023/04/05 13:23:57 Uninstalling info
+2023/04/05 13:23:57 Uninstalling libpng16
+2023/04/05 13:23:57 Uninstalling tzdata
+2023/04/05 13:23:59 Uninstalling texinfo
+2023/04/05 13:23:59 Uninstalling libpng16-devel
+2023/04/05 13:23:59 Uninstalling tzcode
+2023/04/05 13:23:59 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/info/info-7.0.3-1.tar.xz
+2023/04/05 13:24:00 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/freetype2/libfreetype-doc/libfreetype-doc-2.13.0-1.tar.xz
+2023/04/05 13:24:01 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpng/libpng16/libpng16-1.6.34-1.tar.xz
+2023/04/05 13:24:01 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2023c-1.tar.xz
+2023/04/05 13:24:07 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotlienc1/libbrotlienc1-1.0.9-2.tar.xz
+2023/04/05 13:24:08 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/texinfo-7.0.3-1.tar.xz
+2023/04/05 13:24:10 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpng/libpng16-devel/libpng16-devel-1.6.39-1.tar.xz
+2023/04/05 13:24:10 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/freetype2/libfreetype6/libfreetype6-2.13.0-1.tar.xz
+2023/04/05 13:24:10 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2023c-1.tar.xz
+2023/04/05 13:24:10 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotli-devel/libbrotli-devel-1.0.9-2.tar.xz
+2023/04/05 13:24:10 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpng/libpng-devel/libpng-devel-1.6.39-1.tar.xz
+2023/04/05 13:24:10 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/freetype2/libfreetype-devel/libfreetype-devel-2.13.0-1.tar.xz
+2023/04/05 13:24:11 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2023/04/05 13:24:25 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2023/04/05 13:24:34 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2023/04/05 13:24:52 note: Installation Complete
+2023/04/05 13:24:52 Ending cygwin install
+2023/04/05 14:12:51 Starting cygwin install, version 2.925
+2023/04/05 14:12:51 User has backup/restore rights
+2023/04/05 14:12:51 User has symlink creation right
+2023/04/05 14:12:51 Current Directory: C:\Users\Hp\Downloads
+2023/04/05 14:12:53 source: network install
+2023/04/05 14:12:53 root: C:\cygwin64 system
+2023/04/05 14:12:53 Changing gid to Administrators
+2023/04/05 14:12:54 Selected local directory: C:\Users\Hp\Downloads
+2023/04/05 14:12:54 net: Preconfig
+2023/04/05 14:12:56 site: https://mirrors.163.com/cygwin/
+2023/04/05 14:13:00 solving: 0 tasks, update: yes, use test packages: no
+2023/04/05 14:13:39 solving: 1 tasks, update: no, use test packages: no
+2023/04/05 14:13:39 Augmented Transaction List:
+2023/04/05 14:13:39    0 install libpng16 1.6.39-1 
+2023/04/05 14:13:39    1   erase libpng16 1.6.34-1 
+2023/04/05 14:13:41 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2023/04/05 14:13:41 Uninstalling libpng16
+2023/04/05 14:13:41 Extracting from file://C:\Users\Hp\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpng/libpng16/libpng16-1.6.39-1.tar.xz
+2023/04/05 14:13:41 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2023/04/05 14:13:44 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2023/04/05 14:13:44 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2023/04/05 14:13:48 note: Installation Complete
+2023/04/05 14:13:48 Ending cygwin install
+2023/04/05 14:20:33 Starting cygwin install, version 2.925
+2023/04/05 14:20:33 User has backup/restore rights
+2023/04/05 14:20:33 User has symlink creation right
+2023/04/05 14:20:33 Current Directory: C:\Users\Hp\Downloads
+2023/04/05 14:20:36 source: network install
+2023/04/05 14:20:36 root: C:\cygwin64 system
+2023/04/05 14:20:36 Changing gid to Administrators
+2023/04/05 14:20:37 Selected local directory: C:\Users\Hp\Downloads
+2023/04/05 14:20:37 net: Preconfig
+2023/04/05 14:20:38 site: https://mirrors.163.com/cygwin/
+2023/04/05 14:20:41 solving: 0 tasks, update: yes, use test packages: no
+2023/04/05 14:21:52 mbox : Are you sure you want to exit setup? Any current download or installation will be aborted.
+2023/04/05 14:22:01 mbox : Are you sure you want to exit setup? Any current download or installation will be aborted.
+2023/04/05 14:22:02 Ending cygwin install

@@ -1,0 +1,109 @@
+makeself
+------------------------------------------
+
+Utility to generate self-extractable archives
+
+A small utility to generate a self-extractable archive from a
+directory. The resulting file appears as a shell script (many of those
+have a .run suffix), and can be launched as is. The archive will then
+uncompress itself to a temporary directory and an optional arbitrary
+command will be executed (for example an installation script). This is
+pretty similar to archives generated with WinZip Self-Extractor in the
+Windows world. Makeself archives also include checksums for integrity
+self-validation (CRC and/or MD5 checksums).
+
+Runtime requirements:
+  bzip2
+  coreutils
+  sharutils
+  gnupg
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://www.megastep.org/makeself
+  http://directory.fsf.org/wiki/makeself
+  http://packages.debian.org/makeself
+
+Canonical download:
+  See above
+
+Version control repository:
+  https://github.com/megastep/makeself
+  git clone git://github.com/megastep/makeself.git
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Stéphane Peter <megastep@megastep.org>
+  Bugs: Stéphane Peter <megastep@megastep.org>
+
+License:
+  GPL-2+
+
+Language:
+  Bourne Shell
+
+------------------------------------------
+
+Build instructions:
+  unpack makeself-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./makeself*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------------------------------
+
+Port Notes:
+
+----- version 2.4.5+20220611+gita4f40a2-1 -----
+- New upstream release 2022-06-24 Jari Aalto
+
+----- version 2.4.2+20200806+git0a777dc-1 -----
+- New upstream release 2020-09-05 Jari Aalto
+
+----- version 2.4.2+20200427+git1c2f8eb-1 -----
+- New upstream release 2020-05-05 Jari Aalto
+
+----- version 2.2.0+git20161230-1 -----
+- New upstream release 2017-09-26 Jari Aalto
+
+----- version 2.2.0-1 -----
+- New upstream release 2016-06-07 Jari Aalto
+- setup.hint: add comment ARCH=noarch
+
+----- version 2.1.5-3 -----
+- New maintainer 2012-10-07 Jari Aalto
+
+----- makeself-2.1.5-3 -- wed apr 28 21:04:33 CEST 2010
+- Executable files have had their .sh extensions stripped.
+- makeself-header moved out of /usr/bin into /usr/share/makeself.
+- makeself-2.1.5-3.cygport file modified accordingly.
+- Added postinstall.sh to clean up in case a previous installation exists.
+- README file updated using script provided with upstream sources.
+- makeself.README modified, requirements now include updated versions.
+- Thanks Lee D. Rothstein and Eric Blake for the suggestions.
+- Reference: http://cygwin.com/ml/cygwin/2010-04/msg00992.html
+
+------ makeself-2.1.5-2 -- mon apr 19 22:31:57 CEST 2010
+- Minor changes in makeself.README.
+- Included valid signatures.
+
+------ makeself-2.1.5-1 -- web apr 14 20:04:52 CEST 2010
+- makeself-2.1.5-1.cygport provided by Yaakov Selkowitz.
+- Many thanks to Steven Monai and Yaakov Selkowitz for their help with this
+  release.
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2012-2022 Jari Aalto; Licensed under GPL v2 or later
